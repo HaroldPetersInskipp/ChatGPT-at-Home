@@ -8,9 +8,17 @@ app = Flask(__name__)
 # Set the secret key for the session
 app.secret_key = 'your-secret-key'
 
-# Select only one medel to use at a time by uncommenting it
-# MODEL_NAME = "facebook/opt-125m" 
-MODEL_NAME = "facebook/opt-350m" 
+# Select only one model to use at a time by uncommenting it
+MODEL_NAME = "facebook/opt-125m"
+# MODEL_NAME = "facebook/opt-350m"
+# MODEL_NAME = "facebook/opt-1.3b"
+# MODEL_NAME = "facebook/opt-2.7b"
+# The models below this point may not run on GPU's with 4GB or less memory
+# MODEL_NAME = "facebook/opt-6.7b"
+# MODEL_NAME = "facebook/opt-13b"
+# MODEL_NAME = "facebook/opt-30b"
+# MODEL_NAME = "facebook/opt-66b"
+# MODEL_NAME = "facebook/opt-175b" # request access to model here: https://docs.google.com/forms/d/e/1FAIpQLSe4IP4N6JkCEMpCP-yY71dIUPHngVReuOmQKDEI1oHFUaVg7w/viewform
 
 # Initialize the chat history
 history = [""]
