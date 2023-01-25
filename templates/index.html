@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>ChatGPT @ Home</title>
+        <title>ChatGPT</title>
         <!-- Include Materialize CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <!-- Custom CSS -->
@@ -30,7 +30,7 @@
     </head>
 <body>
     <div class="container">
-        <h1>ChatGPT @ Home</h1>
+        <h1>Locally hosted ChatGPT</h1>
         {% if history %}
         <!-- Chat history -->
         <div id="history" class="card">
@@ -46,11 +46,10 @@
             <!-- Chat form -->
             <form id="chat-form" method="post" class="input-field">
                 <textarea id="input-text" name="input_text"></textarea>
-                <button type="submit" class="btn">Send</button>
-            </form>
-
-            <!-- Reset button -->
+                <button type="submit" class="btn">Submit</button>
+                <!-- Reset button -->
             <button id="reset-button" type="submit" class="btn" form="reset-form">Reset</button>
+            </form>
 
             <!-- Reset form -->
             <form id="reset-form" method="post" action="/reset">
