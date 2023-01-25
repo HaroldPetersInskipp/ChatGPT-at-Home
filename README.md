@@ -3,7 +3,7 @@ This is a fork of [Sentdex](https://github.com/Sentdex/)'s [ChatGPT-at-Home](htt
 
 The purpose is to include additional models and options for use in a locally accessable Large Language Model (LLM) chatbot application
 
-You can uncomment lines in "app.py" to select the model for use, and a generator function to use
+You can uncomment lines in `app.py` to select the `model` for use, and a `generator function` to use
 
 More details coming soon
 
