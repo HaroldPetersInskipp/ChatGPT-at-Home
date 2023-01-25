@@ -1,6 +1,8 @@
-# ChatGPT-at-Home
-ChatGPT @ Home: Large Language Model (LLM) chatbot application, written by ChatGPT
+# Locally hosted ChatGPT
+This is a fork of [Sentdex](https://github.com/Sentdex/)'s [ChatGPT-at-Home](https://github.com/Sentdex/ChatGPT-at-Home) GitHub repository
 
-I asked ChatGPT to build an LLM-based chatbot app and this was the result. 
+The purpose is to include additional models and options for use in a locally accessable Large Language Model (LLM) chatbot application
+
+More details coming soon
 
 <img src="https://pythonprogramming.net/static/images/chatgptathomesocial.png" width="512"/>
