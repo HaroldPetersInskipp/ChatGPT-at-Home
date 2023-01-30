@@ -7,4 +7,4 @@ You can uncomment lines in `app.py` to select the `model` for use, and a `genera
 
 More details coming soon
 
-<img src="https://pythonprogramming.net/static/images/chatgptathomesocial.png" width="512"/>
+<img src="Screenshot.png"/>
