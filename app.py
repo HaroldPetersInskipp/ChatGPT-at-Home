@@ -9,6 +9,7 @@ app = Flask(__name__)
 app.secret_key = 'your-secret-key'
 
 # Select only one model to use at a time by uncommenting it
+# MODEL_NAME = "EleutherAI/gpt-j-6B"
 MODEL_NAME = "facebook/opt-125m"
 # MODEL_NAME = "facebook/opt-350m"
 # MODEL_NAME = "facebook/opt-1.3b"
